@@ -383,7 +383,10 @@ case "$choice" in
         exit
         ;;
     *)
-        echo -e "${yellow}********************${rest}"
-        echo "Invalid choice. Please select a valid option."
+        echo -e "${purple}*********************${rest}"
+        cfwarpIP
+        endipv4
+        endipresult
+        Endip_v4
         ;;
 esac
